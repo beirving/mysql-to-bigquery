@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  app:
+      build:
+        context: ../../
+        dockerfile: docker/Dockerfile
+      ports:
+        - "5000:5000"
+      environment:
+        - MYSQL_BIG_QUERY_CONSUMER_TYPE=schema
+      image: mysqlbigquery
+      container_name: "mysqlbigqueryconsumeschema"
+      command: ["python","/src/consume.py"]

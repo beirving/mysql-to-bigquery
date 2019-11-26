@@ -1,0 +1,10 @@
+/credentials/*
+.idea/*
+/venv/*
+/__pycache__/*
+src/mysql_bigquery/__pycache__/*
+src/mysql_bigquery/adapters/__pycache__/*
+src/mysql_bigquery/prefect_utils/__pycache__/*
+src/mysql_bigquery/prefect_utils/add/__pycache__/*
+src/mysql_bigquery/prefect_utils/jobs/__pycache__/*
+src/mysql_bigquery/prefect_utils/install/__pycache__/*
